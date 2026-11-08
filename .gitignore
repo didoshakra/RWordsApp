@@ -1,0 +1,48 @@
+# Node
+node_modules/
+
+# Expo / Metro
+.expo/
+.metro-health-check*
+
+# Android / Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/app/.cxx/
+android/local.properties
+android/.idea/
+*.apk
+*.aab
+*.ap_
+*.jks
+*.keystore
+
+# iOS (якщо з'явиться)
+ios/build/
+ios/Pods/
+
+# Нативні збірки
+**/intermediates/
+**/merged_native_libs/
+
+# Локальні бази
+*.db
+
+# Моделі Vosk (великі файли)
+android/app/src/main/assets/model-uk-uk/
+android/app/src/main/assets/model-small-uk-v3-small/
+# рядок для згенерованого бандла
+android/app/src/main/assets/index.android.bundle
+
+# Секрети
+.env
+.env.*
+!.env.example
+src/config/secrets.js
+
+# Логи й IDE
+*.log
+.idea/
+.vscode/
+Thumbs.db
