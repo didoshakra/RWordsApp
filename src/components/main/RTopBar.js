@@ -2,11 +2,7 @@
 import React from 'react';
 import {StyleSheet, View, TouchableOpacity} from 'react-native';
 
-// import DrawerSwitcher from './DrawerSwitcher';
-// import HeaderMenuDrop from './HeaderMenuDrop';
 import ThemeSwitcher from './ThemeSwitcher';
-import BuildingModal from '@/components/building/BuildingModal';
-import BuildingMenuDrop from '@/components/building/BuildingMenuDrop';
 import HomeHelpModal from '@/screens/HomeHelpModal';
 
 export default function RTopBar(props) {
@@ -30,8 +26,6 @@ export default function RTopBar(props) {
         <HomeHelpModal pcBg={pcBg} pcOn={pcOn} />
         {/* BuildingModal */}
         {__DEV__ && <BuildingModal pcBg={pcBg} pcOn={pcOn} />}
-        {/* BuildingMenuDrop */}
-        {__DEV__ && <BuildingMenuDrop pcBg={pcBg} pcOn={pcOn} />}
       </View>
     </View>
   );

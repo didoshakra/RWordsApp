@@ -26,7 +26,6 @@ import AppWebView from '@/components/web/AppWebView';
 import MenuScreen from '@/screens/MenuScreen';
 import SettingsScreen from '@/components/settings/SettingsScreen';
 //
-import DraggableListScreen from '@/examples/DraggableListScreen';
 import AboutWords from '@/screens/AboutWords';
 import ImportTextScreen from '@/screens/words/ImportTextScreen';
 import TranslatorScreen from '@/screens/translator/TranslatorScreen';
@@ -298,11 +297,6 @@ export default function RootStack() {
         component={Profile}
         options={{headerShown: false}}
       />
-      <Stack.Screen
-        name="DraggableListScreen"
-        component={DraggableListScreen}
-        options={{headerShown: false}}
-      />
-    </Stack.Navigator>
+      </Stack.Navigator>
   );
 }
