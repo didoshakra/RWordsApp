@@ -33,7 +33,6 @@ const azureVoices = [
   {label: 'Остап (Чоловічий)', value: 'uk-UA-OstapNeural'},
   {label: 'Поліна (Жіночий)', value: 'uk-UA-PolinaNeural'},
 ];
-Фя;
 const LanguageSettingsModal = ({pcBg = 'transparent', pcOn = 'gray'}) => {
   const [isVisible, setIsVisible] = useState(false);
   const {settings, setSettings} = useContext(SettingsContext);

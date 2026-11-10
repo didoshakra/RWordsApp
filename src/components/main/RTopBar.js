@@ -24,8 +24,6 @@ export default function RTopBar(props) {
         {/* <HeaderMenuDrop pcBg={pcBg} pcOn={pcOn} /> */}
         {/*  */}
         <HomeHelpModal pcBg={pcBg} pcOn={pcOn} />
-        {/* BuildingModal */}
-        {__DEV__ && <BuildingModal pcBg={pcBg} pcOn={pcOn} />}
       </View>
     </View>
   );

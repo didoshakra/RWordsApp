@@ -17,7 +17,7 @@ export const useVoskControl = (handleVoice, modalVisible) => {
   const vosk = useRef(new Vosk()).current;
 
   const loadModel = useCallback(() => {
-    vosk
+    vosk   
       .loadModel('model-uk-uk')
       .then(() => setIsLoadModel(true))
       .catch(e => console.log('error', e));

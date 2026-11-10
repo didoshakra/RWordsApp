@@ -24,14 +24,14 @@ import {
 } from '@/db/dbConfig';
 import {initializeNotesSchema} from '@/db/notes/initNotesSchema';
 import {initializeRulesSchema} from '@/db/rules/initRulesSchema';
-import {clearGrammarWords} from '@/db/rules/rulesWordsActions';
+// import {clearGrammarWords} from '@/db/rules/rulesWordsActions';
 // import {rulesSeedGrammarA1Full} from '@/db/rules/rulesWordsSeedGrammarA1';
 // import {seedAllRules} from '@/db/rules/seedRules';
 import {initializeLessonsSchema} from '@/db/lessons/initLessonsSchema';
 
 // ⚠️ true — ПОВНЕ СКИДАННЯ БАЗИ при запуску (видаляє файл і створює всі таблиці з нуля).
 // Після одного запуску обов'язково поверніть false, інакше база скидатиметься щоразу!
-const RESET_ALL = false;
+const RESET_ALL = true;
 
 export default function App() {
   useEffect(() => {
